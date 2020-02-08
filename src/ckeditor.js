@@ -31,8 +31,6 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import GFMDataProcessor from '@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor';
-import StandardEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/standardeditingmode';
-import RestrictedEditingMode from '@ckeditor/ckeditor5-restricted-editing/src/restrictededitingmode';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -62,9 +60,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	Mention,
 	Highlight,
-	GFMDataProcessor,
-	StandardEditingMode,
-	RestrictedEditingMode,
+	GFMDataProcessor
 ];
 
 // Editor configuration.
